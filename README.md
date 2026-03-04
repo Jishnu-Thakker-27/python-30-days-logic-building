@@ -38,7 +38,7 @@ Multi-feature CLI applications with proper structure.
 ## ✅ Progress Tracker
 
 - [x] Day 01 – Even/Odd Checker  
-- [ ] Day 02 – Prime Number Checker  
+- [x] Day 02 – Prime Number Checker  
 - [ ] Day 03 – Number Guessing Game  
 - [ ] Day 04 – Calculator  
 - [ ] Day 05 – Multiplication Table  
