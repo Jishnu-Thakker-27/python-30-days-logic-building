@@ -40,7 +40,7 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 01 – Even/Odd Checker  
 - [x] Day 02 – Prime Number Checker  
 - [x] Day 03 – Number Guessing Game  
-- [ ] Day 04 – Calculator  
+- [x] Day 04 – Calculator  
 - [ ] Day 05 – Multiplication Table  
 - [ ] Day 06 – Palindrome Checker  
 - [ ] Day 07 – Password Strength Checker  
