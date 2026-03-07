@@ -41,7 +41,7 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 02 – Prime Number Checker  
 - [x] Day 03 – Number Guessing Game  
 - [x] Day 04 – Calculator  
-- [ ] Day 05 – Multiplication Table  
+- [x] Day 05 – Multiplication Table  
 - [ ] Day 06 – Palindrome Checker  
 - [ ] Day 07 – Password Strength Checker  
 - [ ] Day 08 – To-Do List  
