@@ -44,7 +44,7 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 05 – Multiplication Table  
 - [x] Day 06 – Palindrome Checker  
 - [x] Day 07 – Password Strength Checker  
-- [ ] Day 08 – To-Do List  
+- [x] Day 08 – To-Do List  
 - [ ] Day 09 – Student Grade Calculator  
 - [ ] Day 10 – Word Counter  
 - [ ] Day 11 – Character Frequency Counter  
