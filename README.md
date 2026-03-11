@@ -45,13 +45,13 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 06 – Palindrome Checker  
 - [x] Day 07 – Password Strength Checker  
 - [x] Day 08 – To-Do List  
-- [ ] Day 09 – Student Grade Calculator  
+- [x] Day 09 – Rock Paper Scissors  
 - [ ] Day 10 – Word Counter  
 - [ ] Day 11 – Character Frequency Counter  
 - [ ] Day 12 – Contact Book  
 - [ ] Day 13 – ATM Simulation  
 - [ ] Day 14 – Pattern Generator  
-- [ ] Day 15 – Rock Paper Scissors  
+- [ ] Day 15 – Student Grade Calculator
 - [ ] Day 16 – To-Do List with File Storage  
 - [ ] Day 17 – Quiz Application  
 - [ ] Day 18 – Expense Tracker  
