@@ -1,3 +1,4 @@
+
 # Student Record System (Work in Progress)
 # Day 9 Python Project
 # Features completed:
@@ -24,7 +25,7 @@ while True:
             science_marks=int(input("Enter Marks Of Science."))
             english_marks=int(input("Enter Marks Of English."))
             
-        f.write(f"{name},{maths_marks},{science_marks},{english_marks}\n")
+            f.write(f"Name={name}\n Maths={maths_marks}\n Science={science_marks}\n English={english_marks}\n")
     if user==2:
         with open("Data.txt",) as f:
             read=f.readlines()
@@ -33,9 +34,35 @@ while True:
         with open("Data.txt") as f:
             search=input("Search The Name Of The Student.")
             read=f.readlines()
-            print(read[search])
+            found=False
+            
+            for line in read:
+                if search.lower() in line.lower():
+                    print(line.strip())
+                    found=True
+
+            if not found:
+                print("Student Not Found.")
     if user==4:
-        pass
+        with open("Data.txt") as f:
+            search=input("Search The Name Of The Student: ")
+            read=f.readlines()
+            found=False
+        
+            for i in range(len(read)):
+                if search.lower() in read[i].lower():
+                
+                    maths = int(read[i+1].split("=")[1])
+                    science = int(read[i+2].split("=")[1])
+                    english = int(read[i+3].split("=")[1])
+                
+                    avg = (maths + science + english) / 3
+                
+                    print(f"Average Marks = {avg}")
+                    found=True
+        
+            if not found:
+                print("Student Not Found.")
         
         
     if user==5:
