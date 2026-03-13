@@ -24,13 +24,14 @@ while True:
             Data=f.readlines()
             for i in range(1,len(Data)+1):
                 print(f"{i}.{Data[i-1]}") 
+            
             Remove=int(input("Enter The Task Number You Want To Remove."))
             
-            if Remove in range(len(Data)):
+            if Remove in range(1,len(Data)+1):
                 Data.pop((Remove-1))
             else:
                 print("Invalid Number.")
-        with open("Task.txt","a") as f:
+        with open("Task.txt","w") as f:
             print("Your Updated Tasks:-")
             for i in Data:
                 f.write(i)
