@@ -46,12 +46,12 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 07 – Password Strength Checker  
 - [x] Day 08 – To-Do List  
 - [ ] Day 09 – Rock Paper Scissors  
-- [ ] Day 10 – Word Counter  
-- [ ] Day 11 – Character Frequency Counter  
-- [ ] Day 12 – Contact Book  
-- [ ] Day 13 – ATM Simulation  
-- [ ] Day 14 – Pattern Generator  
-- [ ] Day 15 – Student Grade Calculator
+- [ ] Day 10 – Student Grade Calculator 
+- [ ] Day 11 – Word Counter    
+- [ ] Day 12 – Character Frequency Counter  
+- [ ] Day 13 – Contact Book  
+- [ ] Day 14 – ATM Simulation  
+- [ ] Day 15 – Pattern Generator
 - [ ] Day 16 – To-Do List with File Storage  
 - [ ] Day 17 – Quiz Application  
 - [ ] Day 18 – Expense Tracker  
