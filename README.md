@@ -49,8 +49,8 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 10 – Student Grade Calculator 
 - [x] Day 11 – Word Counter    
 - [x] Day 12 – Character Frequency Counter  
-- [ ] Day 13 – Contact Book  
-- [ ] Day 14 – ATM Simulation  
+- [x] Day 13 – Contact Book  
+- [x] Day 14 – ATM Simulation  
 - [ ] Day 15 – Pattern Generator
 - [ ] Day 16 – To-Do List with File Storage  
 - [ ] Day 17 – Quiz Application  
