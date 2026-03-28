@@ -54,7 +54,7 @@ Multi-feature CLI applications with proper structure.
 - [ ] Day 15 – Pattern Generator
 - [x] Day 16 – To-Do List with File Storage  
 - [ ] Day 17 – Quiz Application  
-- [ ] Day 18 – Expense Tracker  
+- [x] Day 18 – Expense Tracker  
 - [ ] Day 19 – Library Management System  
 - [x] Day 20 – Login System with File Storage  
 - [ ] Day 21 – Hangman Game  
