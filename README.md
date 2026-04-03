@@ -53,7 +53,7 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 14 – ATM Simulation  
 - [ ] Day 15 – Pattern Generator
 - [x] Day 16 – To-Do List with File Storage  
-- [ ] Day 17 – Quiz Application  
+- [x] Day 17 – Quiz Application  
 - [x] Day 18 – Expense Tracker  
 - [x] Day 19 – Library Management System  
 - [x] Day 20 – Login System with File Storage  
