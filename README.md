@@ -51,7 +51,7 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 12 – Character Frequency Counter  
 - [x] Day 13 – Contact Book  
 - [x] Day 14 – ATM Simulation  
-- [ ] Day 15 – Pattern Generator
+- [x] Day 15 – Pattern Generator
 - [x] Day 16 – To-Do List with File Storage  
 - [x] Day 17 – Quiz Application  
 - [x] Day 18 – Expense Tracker  
