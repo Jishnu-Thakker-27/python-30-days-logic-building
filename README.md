@@ -57,7 +57,7 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 18 – Expense Tracker  
 - [x] Day 19 – Library Management System  
 - [x] Day 20 – Login System with File Storage  
-- [ ] Day 21 – Hangman Game  
+- [x] Day 21 – Hangman Game  
 - [ ] Day 22 – CSV Data Analyzer  
 - [ ] Day 23 – Modular Task Manager  
 - [ ] Day 24 – Inventory Management System  
