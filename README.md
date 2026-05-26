@@ -59,7 +59,7 @@ Multi-feature CLI applications with proper structure.
 - [x] Day 20 – Login System with File Storage  
 - [x] Day 21 – Hangman Game  
 - [x] Day 22 – CSV Data Analyzer  
-- [ ] Day 23 – Modular Task Manager  
+- [x] Day 23 – Modular Task Manager  
 - [ ] Day 24 – Inventory Management System  
 - [ ] Day 25 – Multi-User Banking System  
 - [ ] Day 26 – Quiz App with Leaderboard  
