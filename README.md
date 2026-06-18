@@ -1,5 +1,5 @@
 # python-30-days-logic-building
-This repository contains 30 Python projects built over 30 days.
+This repository contains 30 Python projects.
 
 The goal of this challenge is not to build flashy portfolio projects,  
 but to strengthen problem-solving, logical thinking, and program structure.
