@@ -1,11 +1,9 @@
 # python-30-days-logic-building
-This repository contains 30 Python projects.
+This repository contains 30 Python projects built to strengthen problem-solving, logical thinking, and program structure.
 
-The goal of this challenge is not to build flashy portfolio projects,  
-but to strengthen problem-solving, logical thinking, and program structure.
+The goal was never to build flashy portfolio projects — it was to go from fundamentals to structured mini-systems through consistent practice.
 
-I completed ~11 hours of Python fundamentals before starting this challenge,  
-and these projects are focused on applying concepts rather than watching tutorials.
+I completed ~11 hours of Python fundamentals before starting this, and every project here is focused on applying concepts rather than watching tutorials.
 
 🎯 Objectives
 
@@ -37,36 +35,36 @@ Multi-feature CLI applications with proper structure.
 
 ## ✅ Progress Tracker
 
-- [x] Day 01 – Even/Odd Checker  
-- [x] Day 02 – Prime Number Checker  
-- [x] Day 03 – Number Guessing Game  
-- [x] Day 04 – Calculator  
-- [x] Day 05 – Multiplication Table  
-- [x] Day 06 – Palindrome Checker  
-- [x] Day 07 – Password Strength Checker  
-- [x] Day 08 – To-Do List  
-- [x] Day 09 – Rock Paper Scissors  
-- [x] Day 10 – Student Grade Calculator 
-- [x] Day 11 – Word Counter    
-- [x] Day 12 – Character Frequency Counter  
-- [x] Day 13 – Contact Book  
-- [x] Day 14 – ATM Simulation  
-- [x] Day 15 – Pattern Generator
-- [x] Day 16 – To-Do List with File Storage  
-- [x] Day 17 – Quiz Application  
-- [x] Day 18 – Expense Tracker  
-- [x] Day 19 – Library Management System  
-- [x] Day 20 – Login System with File Storage  
-- [x] Day 21 – Hangman Game  
-- [x] Day 22 – CSV Data Analyzer  
-- [x] Day 23 – Modular Task Manager  
-- [x] Day 24 – Inventory Management System  
-- [ ] Day 25 – Multi-User Banking System  
-- [ ] Day 26 – Quiz App with Leaderboard  
-- [ ] Day 27 – Text-Based Adventure Game  
-- [ ] Day 28 – Basic Password Manager  
-- [ ] Day 29 – Rule-Based Chatbot  
-- [ ] Day 30 – Final CLI Application  
+[x]Even/Odd Checker
+[x]Prime Number Checker
+[x]Number Guessing Game
+[x]Calculator
+[x]Multiplication Table
+[x]Palindrome Checker
+[x]Password Strength Checker
+[x]To-Do List
+[x]Rock Paper Scissors
+[x]Student Grade Calculator
+[x]Word Counter
+[x]Character Frequency Counter
+[x]Contact Book
+[x]ATM Simulation
+[x]Pattern Generator
+[x]To-Do List with File Storage
+[x]Quiz Application
+[x]Expense Tracker
+[x]Library Management System
+[x]Login System with File Storage
+[x]Hangman Game
+[x]CSV Data Analyzer
+[x]Modular Task Manager
+[x]Inventory Management System
+[x]Multi-User Banking System 
+[]Quiz App with Leaderboard 
+[]Text-Based Adventure Game 
+[]Basic Password Manager 
+[]Rule-Based Chatbot
+[]Final CLI Application 
 
 ---
 
