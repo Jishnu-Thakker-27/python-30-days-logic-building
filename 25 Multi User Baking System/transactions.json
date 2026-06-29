@@ -1,1 +1,11 @@
-{}
+{
+    "3027": [
+        {
+            "timestamp": "2026-06-29 12:00:00",
+            "type": "Deposit",
+            "amount": 10000.0,
+            "description": "Initial deposit at registration",
+            "balance_after": 10000.0
+        }
+    ]
+}
