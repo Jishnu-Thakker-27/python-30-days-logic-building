@@ -1,0 +1,11 @@
+[
+    {
+        "username": "admin",
+        "password": "adminpassword",
+        "is_admin": true,
+        "quizzes_played": 0,
+        "total_score": 0,
+        "high_score": 0,
+        "category_stats": {}
+    }
+]

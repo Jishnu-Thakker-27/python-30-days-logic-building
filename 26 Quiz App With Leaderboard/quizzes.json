@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "question": "Which of the following is not a keyword in Python?",
+        "options": {
+            "A": "val",
+            "B": "pass",
+            "C": "assert",
+            "D": "nonlocal"
+        },
+        "answer": "A",
+        "explanation": "'val' is not a keyword in Python. 'pass', 'assert', and 'nonlocal' are all reserved built-in keywords."
+    },
+    {
+        "id": 2,
+        "category": "Programming",
+        "difficulty": "Medium",
+        "question": "What is the output of bool([]) in Python?",
+        "options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "SyntaxError"
+        },
+        "answer": "B",
+        "explanation": "Empty sequences (like list [], dict {}, tuple (), set()) are truthy-evaluated as False in Python."
+    },
+    {
+        "id": 3,
+        "category": "Programming",
+        "difficulty": "Hard",
+        "question": "What does the keyword 'yield' do in Python?",
+        "options": {
+            "A": "Stops execution and deletes local variables",
+            "B": "Suspends execution and returns a generator iterator",
+            "C": "Imports a module dynamically",
+            "D": "Forcibly exits the current loop"
+        },
+        "answer": "B",
+        "explanation": "The 'yield' statement is used in generators to return a value temporarily and suspend execution, saving state."
+    },
+    {
+        "id": 4,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "question": "Which data structure in Python is unordered and mutable?",
+        "options": {
+            "A": "List",
+            "B": "Tuple",
+            "C": "Set",
+            "D": "Dictionary"
+        },
+        "answer": "C",
+        "explanation": "A Set in Python is unordered and mutable. Tuples are immutable, lists are ordered, and dicts are ordered keys mapping to values."
+    },
+    {
+        "id": 5,
+        "category": "Programming",
+        "difficulty": "Medium",
+        "question": "What is the average time complexity of looking up a key in a Python dictionary?",
+        "options": {
+            "A": "O(1)",
+            "B": "O(log n)",
+            "C": "O(n)",
+            "D": "O(n log n)"
+        },
+        "answer": "A",
+        "explanation": "Under the hood, Python dictionaries are implemented using hash tables, giving average case O(1) lookups."
+    },
+    {
+        "id": 6,
+        "category": "Science",
+        "difficulty": "Easy",
+        "question": "What is the chemical symbol for water?",
+        "options": {
+            "A": "CO2",
+            "B": "H2O",
+            "C": "NaCl",
+            "D": "O2"
+        },
+        "answer": "B",
+        "explanation": "Water consists of two Hydrogen atoms and one Oxygen atom, represented as H2O."
+    },
+    {
+        "id": 7,
+        "category": "Science",
+        "difficulty": "Medium",
+        "question": "Which planet in our solar system is famous for its large, prominent rings?",
+        "options": {
+            "A": "Jupiter",
+            "B": "Mars",
+            "C": "Saturn",
+            "D": "Neptune"
+        },
+        "answer": "C",
+        "explanation": "While other gas giants have faint ring systems, Saturn possesses the most extensive and visible rings."
+    },
+    {
+        "id": 8,
+        "category": "Science",
+        "difficulty": "Hard",
+        "question": "What is the approximate speed of light in a vacuum?",
+        "options": {
+            "A": "150,000 km/s",
+            "B": "300,000 km/s",
+            "C": "450,000 km/s",
+            "D": "600,000 km/s"
+        },
+        "answer": "B",
+        "explanation": "The speed of light in a vacuum is exactly 299,792,458 m/s, which is roughly 300,000 km/s (or 186,000 miles/s)."
+    },
+    {
+        "id": 9,
+        "category": "Science",
+        "difficulty": "Easy",
+        "question": "Which gas do plants primarily absorb from the atmosphere for photosynthesis?",
+        "options": {
+            "A": "Oxygen",
+            "B": "Carbon Dioxide",
+            "C": "Nitrogen",
+            "D": "Helium"
+        },
+        "answer": "B",
+        "explanation": "Plants take in Carbon Dioxide (CO2) and release Oxygen (O2) during the process of photosynthesis."
+    },
+    {
+        "id": 10,
+        "category": "Science",
+        "difficulty": "Medium",
+        "question": "What is the main structural component of plant cell walls?",
+        "options": {
+            "A": "Chitin",
+            "B": "Cellulose",
+            "C": "Peptidoglycan",
+            "D": "Keratin"
+        },
+        "answer": "B",
+        "explanation": "Cellulose is a complex carbohydrate that provides structural strength and rigidity to plant cell walls."
+    },
+    {
+        "id": 11,
+        "category": "History",
+        "difficulty": "Easy",
+        "question": "Who was the first President of the United States?",
+        "options": {
+            "A": "Thomas Jefferson",
+            "B": "Abraham Lincoln",
+            "C": "George Washington",
+            "D": "John Adams"
+        },
+        "answer": "C",
+        "explanation": "George Washington served as the first U.S. President from 1789 to 1797 after leading the Continental Army."
+    },
+    {
+        "id": 12,
+        "category": "History",
+        "difficulty": "Medium",
+        "question": "In which year did World War II officially end?",
+        "options": {
+            "A": "1918",
+            "B": "1939",
+            "C": "1945",
+            "D": "1950"
+        },
+        "answer": "C",
+        "explanation": "World War II concluded in September 1945 with the formal surrender of the Allied-occupied Axis powers."
+    },
+    {
+        "id": 13,
+        "category": "History",
+        "difficulty": "Hard",
+        "question": "Who was the founder and first Great Khan of the Mongol Empire?",
+        "options": {
+            "A": "Kublai Khan",
+            "B": "Genghis Khan",
+            "C": "Timur",
+            "D": "Attila the Hun"
+        },
+        "answer": "B",
+        "explanation": "Genghis Khan united the nomadic tribes of Northeast Asia and founded the Mongol Empire in 1206."
+    },
+    {
+        "id": 14,
+        "category": "History",
+        "difficulty": "Easy",
+        "question": "Which ancient civilization built the Great Pyramids of Giza?",
+        "options": {
+            "A": "Romans",
+            "B": "Greeks",
+            "C": "Egyptians",
+            "D": "Mesopotamians"
+        },
+        "answer": "C",
+        "explanation": "The Pyramids of Giza were built by the ancient Egyptians as monumental tombs for their pharaohs."
+    },
+    {
+        "id": 15,
+        "category": "History",
+        "difficulty": "Medium",
+        "question": "The Magna Carta was famously signed in 1215 in which country?",
+        "options": {
+            "A": "France",
+            "B": "Germany",
+            "C": "England",
+            "D": "Italy"
+        },
+        "answer": "C",
+        "explanation": "King John of England signed the Magna Carta at Runnymede to limit his absolute power and protect feudal rights."
+    },
+    {
+        "id": 16,
+        "category": "General Knowledge",
+        "difficulty": "Easy",
+        "question": "Which is the largest ocean on Earth?",
+        "options": {
+            "A": "Atlantic Ocean",
+            "B": "Indian Ocean",
+            "C": "Arctic Ocean",
+            "D": "Pacific Ocean"
+        },
+        "answer": "D",
+        "explanation": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions, covering more than 30% of the Earth's surface."
+    },
+    {
+        "id": 17,
+        "category": "General Knowledge",
+        "difficulty": "Medium",
+        "question": "Which country is the native home of the kangaroo?",
+        "options": {
+            "A": "New Zealand",
+            "B": "South Africa",
+            "C": "Australia",
+            "D": "Canada"
+        },
+        "answer": "C",
+        "explanation": "Kangaroos are marsupials endemic to Australia."
+    },
+    {
+        "id": 18,
+        "category": "General Knowledge",
+        "difficulty": "Hard",
+        "question": "What is the capital city of Australia?",
+        "options": {
+            "A": "Sydney",
+            "B": "Melbourne",
+            "C": "Canberra",
+            "D": "Brisbane"
+        },
+        "answer": "C",
+        "explanation": "Canberra was selected as the capital in 1908 as a compromise between rivals Sydney and Melbourne."
+    },
+    {
+        "id": 19,
+        "category": "General Knowledge",
+        "difficulty": "Easy",
+        "question": "Which organ is responsible for pumping blood throughout the human body?",
+        "options": {
+            "A": "Brain",
+            "B": "Lungs",
+            "C": "Heart",
+            "D": "Liver"
+        },
+        "answer": "C",
+        "explanation": "The heart is a muscular organ that pumps blood through the blood vessels of the circulatory system."
+    },
+    {
+        "id": 20,
+        "category": "General Knowledge",
+        "difficulty": "Medium",
+        "question": "Which is the tallest mountain in the world above sea level?",
+        "options": {
+            "A": "K2",
+            "B": "Mount Everest",
+            "C": "Mount Kilimanjaro",
+            "D": "Lhotse"
+        },
+        "answer": "B",
+        "explanation": "Mount Everest, located in the Himalayas, is the Earth's highest mountain above sea level, at 8,848 meters (29,029 ft)."
+    }
+]
