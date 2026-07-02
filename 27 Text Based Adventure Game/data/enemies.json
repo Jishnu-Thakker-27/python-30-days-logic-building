@@ -1,0 +1,109 @@
+{
+  "giant_rat": {
+    "name": "Giant Rat",
+    "hp": 15,
+    "max_hp": 15,
+    "attack": 4,
+    "defense": 1,
+    "speed": 8,
+    "xp_reward": 10,
+    "gold_reward": 5,
+    "description": "A disgusting rat the size of a dog. Its yellow teeth drip with filth.",
+    "type": "beast",
+    "weakness": "fire",
+    "resistance": "none",
+    "drops": [
+      {"item_id": "health_potion", "chance": 0.25}
+    ]
+  },
+  "goblin_scout": {
+    "name": "Goblin Scout",
+    "hp": 25,
+    "max_hp": 25,
+    "attack": 7,
+    "defense": 2,
+    "speed": 12,
+    "xp_reward": 20,
+    "gold_reward": 15,
+    "description": "A small, green-skinned humanoid looking to ambush unwary travelers.",
+    "type": "humanoid",
+    "weakness": "none",
+    "resistance": "none",
+    "drops": [
+      {"item_id": "rusty_dagger", "chance": 0.15},
+      {"item_id": "health_potion", "chance": 0.3}
+    ]
+  },
+  "skeleton_warrior": {
+    "name": "Skeleton Warrior",
+    "hp": 35,
+    "max_hp": 35,
+    "attack": 10,
+    "defense": 4,
+    "speed": 9,
+    "xp_reward": 35,
+    "gold_reward": 20,
+    "description": "A clattering skeleton clad in rusty chainmail, wielding an iron sword.",
+    "type": "undead",
+    "weakness": "holy",
+    "resistance": "ice",
+    "drops": [
+      {"item_id": "iron_sword", "chance": 0.1},
+      {"item_id": "crypt_key", "chance": 0.0}
+    ]
+  },
+  "cave_troll": {
+    "name": "Cave Troll",
+    "hp": 80,
+    "max_hp": 80,
+    "attack": 16,
+    "defense": 8,
+    "speed": 6,
+    "xp_reward": 100,
+    "gold_reward": 60,
+    "description": "A massive, towering brute with grey, stone-like flesh. It regenerates slowly.",
+    "type": "giant",
+    "weakness": "fire",
+    "resistance": "lightning",
+    "drops": [
+      {"item_id": "chainmail", "chance": 0.2},
+      {"item_id": "mana_potion", "chance": 0.4}
+    ]
+  },
+  "shadow_phantom": {
+    "name": "Shadow Phantom",
+    "hp": 55,
+    "max_hp": 55,
+    "attack": 14,
+    "defense": 6,
+    "speed": 14,
+    "xp_reward": 120,
+    "gold_reward": 40,
+    "description": "A floating wraith woven from shadows. It seems to resist ordinary physical blows.",
+    "type": "undead",
+    "weakness": "holy",
+    "resistance": "none",
+    "drops": [
+      {"item_id": "shadow_crystal", "chance": 0.0},
+      {"item_id": "elixir_of_life", "chance": 0.05}
+    ]
+  },
+  "red_dragon": {
+    "name": "Ignis, the Red Dragon",
+    "hp": 220,
+    "max_hp": 220,
+    "attack": 25,
+    "defense": 15,
+    "speed": 13,
+    "xp_reward": 500,
+    "gold_reward": 300,
+    "description": "A massive, scaled beast of ancient times. Its maw glows with molten fire.",
+    "type": "dragon",
+    "weakness": "ice",
+    "resistance": "fire",
+    "drops": [
+      {"item_id": "dragon_scale_mail", "chance": 1.0},
+      {"item_id": "flaming_greatsword", "chance": 1.0}
+    ]
+  }
+}

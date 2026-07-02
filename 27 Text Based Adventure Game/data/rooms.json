@@ -1,0 +1,114 @@
+{
+  "starting_cell": {
+    "name": "Starting Cell",
+    "description": "A cold, damp stone chamber with rusted chains hanging from the walls. A small shaft of dim light filters through a grate high above.",
+    "exits": {
+      "north": "hermit_cave",
+      "south": {
+        "target": "safe_haven",
+        "key_item": "rusty_key",
+        "locked_message": "A heavy iron gate blocks your path to the south. There is a rusted keyhole."
+      },
+      "east": "damp_cavern"
+    },
+    "items": [],
+    "enemies": [],
+    "npcs": [],
+    "puzzles": []
+  },
+  "hermit_cave": {
+    "name": "Hermit's Cave",
+    "description": "A cozy cave illuminated by a flickering campfire. Bookshelves and alchemical jars line the stone walls.",
+    "exits": {
+      "south": "starting_cell"
+    },
+    "items": ["health_potion"],
+    "enemies": [],
+    "npcs": ["eldrin"],
+    "puzzles": []
+  },
+  "damp_cavern": {
+    "name": "Damp Cavern",
+    "description": "Water drops loudly from stalactites onto the wet stone floor. The air smells of moss and decay.",
+    "exits": {
+      "west": "starting_cell"
+    },
+    "items": [],
+    "enemies": ["goblin_scout"],
+    "npcs": [],
+    "puzzles": []
+  },
+  "safe_haven": {
+    "name": "Safe Haven",
+    "description": "A clean and warm chamber. Banners of forgotten kingdoms hang from the ceiling. A merchant has set up a small wooden stall here.",
+    "exits": {
+      "north": "starting_cell",
+      "south": "crypt_hall",
+      "west": "old_armory"
+    },
+    "items": [],
+    "enemies": [],
+    "npcs": ["baron"],
+    "puzzles": []
+  },
+  "old_armory": {
+    "name": "Old Armory",
+    "description": "Racks of rusted shields and broken weapons line the walls. A dusty iron chest sits in the center of the room.",
+    "exits": {
+      "east": "safe_haven"
+    },
+    "items": [],
+    "enemies": ["giant_rat"],
+    "npcs": [],
+    "puzzles": [
+      {
+        "id": "armory_chest",
+        "type": "riddle",
+        "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+        "answer": "echo",
+        "solved": false,
+        "reward_items": ["iron_sword", "leather_armor", "health_potion"],
+        "solved_message": "The heavy iron lock clicks open! Inside you find an Iron Sword, Leather Armor, and a Health Potion."
+      }
+    ]
+  },
+  "crypt_hall": {
+    "name": "Crypt Hallway",
+    "description": "A grand hallway lined with stone sarcophagi. A cold, ghostly mist hangs in the air, chilling you to the bone.",
+    "exits": {
+      "north": "safe_haven",
+      "east": "shadow_caverns",
+      "south": {
+        "target": "dragon_sanctum",
+        "key_item": "crypt_key",
+        "locked_message": "An obsidian door with ancient glyphs blocks the southern path. It has a keyhole shaped like a skull."
+      }
+    },
+    "items": [],
+    "enemies": [],
+    "npcs": ["alaric"],
+    "puzzles": []
+  },
+  "shadow_caverns": {
+    "name": "Shadow Caverns",
+    "description": "A pitch-black cavern where even your torchlight seems dim. Eerie whispers echo from the dark corners.",
+    "exits": {
+      "west": "crypt_hall"
+    },
+    "items": [],
+    "enemies": ["shadow_phantom"],
+    "npcs": [],
+    "puzzles": []
+  },
+  "dragon_sanctum": {
+    "name": "Dragon's Sanctum",
+    "description": "A massive volcanic cavern filled with piles of gold and jewels. In the center, a huge red dragon sleeps, guarding a glowing golden portal.",
+    "exits": {
+      "north": "crypt_hall"
+    },
+    "items": [],
+    "enemies": ["red_dragon"],
+    "npcs": [],
+    "puzzles": []
+  }
+}

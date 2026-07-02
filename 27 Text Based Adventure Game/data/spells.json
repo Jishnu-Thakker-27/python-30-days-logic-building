@@ -1,0 +1,42 @@
+{
+  "fireball": {
+    "name": "Fireball",
+    "mana_cost": 10,
+    "power": 18,
+    "element": "fire",
+    "description": "Launches a searing ball of fire. Devastating to cold-themed foes.",
+    "target": "enemy"
+  },
+  "ice_shard": {
+    "name": "Ice Shard",
+    "mana_cost": 8,
+    "power": 14,
+    "element": "ice",
+    "description": "Fires a jagged shard of frost. Effective against fire-themed foes.",
+    "target": "enemy"
+  },
+  "heal": {
+    "name": "Heal Spell",
+    "mana_cost": 12,
+    "power": 25,
+    "element": "holy",
+    "description": "A restorative prayer that heals 25 HP. Can be cast in or out of combat.",
+    "target": "self"
+  },
+  "thunderbolt": {
+    "name": "Thunderbolt",
+    "mana_cost": 15,
+    "power": 24,
+    "element": "lightning",
+    "description": "Fires a bolt of pure lightning. Bypasses 50% of the target's armor defense.",
+    "target": "enemy"
+  },
+  "divine_smite": {
+    "name": "Divine Smite",
+    "mana_cost": 22,
+    "power": 45,
+    "element": "holy",
+    "description": "Calls down blinding holy wrath. Deals double damage to undead enemies.",
+    "target": "enemy"
+  }
+}

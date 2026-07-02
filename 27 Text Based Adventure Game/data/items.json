@@ -1,0 +1,140 @@
+{
+  "rusty_dagger": {
+    "name": "Rusty Dagger",
+    "type": "weapon",
+    "description": "A chipped, rusted dagger. Better than nothing.",
+    "attack": 2,
+    "defense": 0,
+    "magic_power": 0,
+    "value": 10
+  },
+  "iron_sword": {
+    "name": "Iron Sword",
+    "type": "weapon",
+    "description": "A sturdy sword made of common iron. Balanced and reliable.",
+    "attack": 5,
+    "defense": 0,
+    "magic_power": 0,
+    "value": 35
+  },
+  "silver_rapier": {
+    "name": "Silver Rapier",
+    "type": "weapon",
+    "description": "An elegant, lightweight rapier forged from fine silver. Lethal in skilled hands.",
+    "attack": 12,
+    "defense": 1,
+    "magic_power": 2,
+    "value": 120
+  },
+  "wizard_staff": {
+    "name": "Wizard Staff",
+    "type": "weapon",
+    "description": "A wooden staff capped with a glowing blue orb. Amplifies magical energy.",
+    "attack": 3,
+    "defense": 0,
+    "magic_power": 15,
+    "value": 150
+  },
+  "flaming_greatsword": {
+    "name": "Flaming Greatsword",
+    "type": "weapon",
+    "description": "A massive two-handed sword that radiates intense heat. It crackles with fire.",
+    "attack": 24,
+    "defense": -2,
+    "magic_power": 8,
+    "value": 500
+  },
+  "ragged_clothes": {
+    "name": "Ragged Clothes",
+    "type": "armor",
+    "description": "Torn cloth offering basic modesty but almost no protection.",
+    "attack": 0,
+    "defense": 1,
+    "magic_power": 0,
+    "value": 0
+  },
+  "leather_armor": {
+    "name": "Leather Armor",
+    "type": "armor",
+    "description": "Tanned animal hide offering decent flexibility and protection.",
+    "attack": 0,
+    "defense": 4,
+    "magic_power": 0,
+    "value": 30
+  },
+  "chainmail": {
+    "name": "Chainmail",
+    "type": "armor",
+    "description": "Interlocking metal rings that absorb heavy blows well.",
+    "attack": 0,
+    "defense": 9,
+    "magic_power": -1,
+    "value": 100
+  },
+  "steel_plate": {
+    "name": "Steel Plate Armor",
+    "type": "armor",
+    "description": "Heavy polished steel armor. Unparalleled protection, but heavy.",
+    "attack": -1,
+    "defense": 18,
+    "magic_power": -3,
+    "value": 280
+  },
+  "dragon_scale_mail": {
+    "name": "Dragon Scale Mail",
+    "type": "armor",
+    "description": "Forged from the scales of a red dragon. Exceptional protection and lightweight.",
+    "attack": 2,
+    "defense": 26,
+    "magic_power": 10,
+    "value": 650
+  },
+  "health_potion": {
+    "name": "Health Potion",
+    "type": "consumable",
+    "description": "A glass vial containing a bubbling red fluid. Restores 35 HP.",
+    "value": 15,
+    "effect": "heal_hp",
+    "amount": 35
+  },
+  "mana_potion": {
+    "name": "Mana Potion",
+    "type": "consumable",
+    "description": "A glass vial containing a glowing blue fluid. Restores 25 MP.",
+    "value": 15,
+    "effect": "heal_mp",
+    "amount": 25
+  },
+  "elixir_of_life": {
+    "name": "Elixir of Life",
+    "type": "consumable",
+    "description": "A rare golden elixir that fully restores HP and MP, and cures ailments.",
+    "value": 120,
+    "effect": "restore_all",
+    "amount": 9999
+  },
+  "rusty_key": {
+    "name": "Rusty Key",
+    "type": "key",
+    "description": "A heavy, rusted key. It might fit the old iron gate.",
+    "value": 0
+  },
+  "crypt_key": {
+    "name": "Crypt Key",
+    "type": "key",
+    "description": "An ominous black key with ancient glyphs etched into it.",
+    "value": 0
+  },
+  "dragon_egg": {
+    "name": "Golden Dragon Egg",
+    "type": "quest",
+    "description": "A surprisingly heavy, shimmering golden egg. Exudes warm energy.",
+    "value": 150
+  },
+  "shadow_crystal": {
+    "name": "Shadow Crystal",
+    "type": "quest",
+    "description": "A dark gem that seems to absorb the surrounding light.",
+    "value": 200
+  }
+}

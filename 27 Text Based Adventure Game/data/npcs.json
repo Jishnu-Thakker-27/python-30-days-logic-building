@@ -1,0 +1,180 @@
+{
+  "eldrin": {
+    "name": "Eldrin the Hermit",
+    "role": "quest_giver",
+    "dialogue": {
+      "start": {
+        "text": "Welcome, traveler. A dark shadow has fallen over these ancient caverns. Few live to tell the tale.",
+        "options": [
+          {"text": "Who are you?", "next": "who_are_you"},
+          {"text": "Is there anything I can help you with?", "next": "check_quest"},
+          {"text": "Goodbye.", "next": "exit"}
+        ]
+      },
+      "who_are_you": {
+        "text": "I am Eldrin, once a scholar of the Grand Academy. I came here searching for the Dragon's Sanctum, but got trapped by the monsters.",
+        "options": [
+          {"text": "Tell me about the dragon.", "next": "dragon_info"},
+          {"text": "Do you need help?", "next": "check_quest"},
+          {"text": "I must go.", "next": "exit"}
+        ]
+      },
+      "dragon_info": {
+        "text": "Ignis, the red dragon, guards the golden exit portal to the surface. He is ancient and incredibly dangerous. You will need a strong shield, a sharp blade, and powerful magic to pierce his scales.",
+        "options": [
+          {"text": "How can I get past the gate to the deeper caverns?", "next": "check_quest"},
+          {"text": "I understand.", "next": "start"}
+        ]
+      },
+      "quest_offer": {
+        "text": "A sneaky Goblin Scout stole my Rusty Key! That key opens the iron gate to the eastern tunnels. If you slay that green thief and retrieve the key, I will let you keep it and teach you the Heal Spell!",
+        "options": [
+          {"text": "I accept the task.", "next": "accept_quest"},
+          {"text": "Sorry, sounds too dangerous.", "next": "quest_declined"}
+        ]
+      },
+      "quest_accepted": {
+        "text": "Thank you! The Goblin Scout was last seen sneaking around the Damp Cavern to the east. Watch your step.",
+        "options": [
+          {"text": "I will return soon.", "next": "exit"}
+        ]
+      },
+      "quest_declined": {
+        "text": "Very well. If you change your mind, I will be here. Do not die out there.",
+        "options": [
+          {"text": "Goodbye.", "next": "exit"}
+        ]
+      },
+      "quest_active": {
+        "text": "Have you slain that Goblin Scout yet? He is hiding in the Damp Cavern to the east.",
+        "options": [
+          {"text": "Not yet, I am still working on it.", "next": "exit"}
+        ]
+      },
+      "quest_finish": {
+        "text": "Ah, you returned! And you have slain the thief. Fantastic! Here is the Rusty Key. Let me also teach you the Heal spell so you can mend your wounds on your journey.",
+        "options": [
+          {"text": "Thank you, Eldrin!", "next": "complete_quest"}
+        ]
+      },
+      "quest_done": {
+        "text": "You have the Rusty Key and know the Heal spell. The gate to the east is open to you. May the light guide you.",
+        "options": [
+          {"text": "Thank you. Goodbye.", "next": "exit"}
+        ]
+      }
+    },
+    "quest": {
+      "id": "slay_goblin",
+      "name": "The Goblin Thief",
+      "description": "Defeat the Goblin Scout in the Damp Cavern and return to Eldrin.",
+      "type": "kill",
+      "target": "goblin_scout",
+      "required_count": 1,
+      "reward_xp": 50,
+      "reward_gold": 20,
+      "reward_items": ["rusty_key"],
+      "reward_spells": ["heal"]
+    }
+  },
+  "baron": {
+    "name": "Baron the Merchant",
+    "role": "merchant",
+    "dialogue": {
+      "start": {
+        "text": "Aha! A customer! Welcome to my humble shop. I scavenge the best gear in the caverns. What can I get for you?",
+        "options": [
+          {"text": "Show me your wares.", "next": "shop"},
+          {"text": "Who are you?", "next": "who_are_you"},
+          {"text": "Just looking around. Goodbye.", "next": "exit"}
+        ]
+      },
+      "who_are_you": {
+        "text": "I am Baron. I travel these dangerous caverns trading with adventurers, outcasts, and anyone with gold. Business is always booming when monsters are active!",
+        "options": [
+          {"text": "Let's trade.", "next": "shop"},
+          {"text": "Alright, see you.", "next": "exit"}
+        ]
+      }
+    },
+    "shop_inventory": [
+      {"item_id": "iron_sword", "price": 70},
+      {"item_id": "silver_rapier", "price": 250},
+      {"item_id": "leather_armor", "price": 60},
+      {"item_id": "chainmail", "price": 180},
+      {"item_id": "health_potion", "price": 15},
+      {"item_id": "mana_potion", "price": 15},
+      {"item_id": "elixir_of_life", "price": 120}
+    ]
+  },
+  "alaric": {
+    "name": "Alaric the Ghost Guardian",
+    "role": "quest_giver",
+    "dialogue": {
+      "start": {
+        "text": "Halt... Mortals do not belong in the Sacred Crypts. A cold fog blocks your path.",
+        "options": [
+          {"text": "Who are you?", "next": "who_are_you"},
+          {"text": "How can I pass through to the Dragon's Lair?", "next": "check_quest"},
+          {"text": "Leave.", "next": "exit"}
+        ]
+      },
+      "who_are_you": {
+        "text": "I am the spirit of Alaric, once the champion of this realm. Even in death, I guard the entrance to the Sanctum. Only those with pure resolve may proceed.",
+        "options": [
+          {"text": "Prove my resolve? How?", "next": "check_quest"},
+          {"text": "I see.", "next": "start"}
+        ]
+      },
+      "quest_offer": {
+        "text": "The Shadow Caverns to the south house a corrupted Shadow Crystal. It leaks dark energy into these halls. Retrieve this crystal and return it to me to purify it, and I will grant you passage to the Dragon's Lair, along with my legendary Wizard Staff and the Divine Smite spell.",
+        "options": [
+          {"text": "I will retrieve the Shadow Crystal.", "next": "accept_quest"},
+          {"text": "No, I am not ready for that darkness.", "next": "quest_declined"}
+        ]
+      },
+      "quest_accepted": {
+        "text": "Go south to the Shadow Caverns. Beware of the Phantoms that dwell there; they are impervious to mundane blades.",
+        "options": [
+          {"text": "I will return.", "next": "exit"}
+        ]
+      },
+      "quest_declined": {
+        "text": "Then turn back, mortal, before the shadows consume you.",
+        "options": [
+          {"text": "Goodbye.", "next": "exit"}
+        ]
+      },
+      "quest_active": {
+        "text": "You have not yet retrieved the Shadow Crystal. It is located deep in the Shadow Caverns to the south.",
+        "options": [
+          {"text": "I am still looking for it.", "next": "exit"}
+        ]
+      },
+      "quest_finish": {
+        "text": "You have done it. The Shadow Crystal is purified. The dark energy dissipates. I will grant you the Crypt Key to unlock the final gate, and bestow upon you my Wizard Staff and the spell of Divine Smite.",
+        "options": [
+          {"text": "Thank you, noble guardian.", "next": "complete_quest"}
+        ]
+      },
+      "quest_done": {
+        "text": "The path is clear. The dragon Ignis lies ahead. Burn him with ice, and shield yourself from his flames. Go forth.",
+        "options": [
+          {"text": "Thank you, Alaric. Goodbye.", "next": "exit"}
+        ]
+      }
+    },
+    "quest": {
+      "id": "retrieve_crystal",
+      "name": "Purifying the Crypts",
+      "description": "Defeat the Shadow Phantom in the Shadow Caverns, retrieve the Shadow Crystal, and return it to Alaric.",
+      "type": "fetch",
+      "target": "shadow_crystal",
+      "required_count": 1,
+      "reward_xp": 150,
+      "reward_gold": 100,
+      "reward_items": ["crypt_key", "wizard_staff"],
+      "reward_spells": ["divine_smite"]
+    }
+  }
+}
