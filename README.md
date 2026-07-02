@@ -7,7 +7,6 @@ I completed ~11 hours of Python fundamentals before starting this, and every pro
 
 🎯 Objectives
 
-- Build consistency by coding daily
 - Improve logical thinking
 - Practice data structures and control flow
 - Learn file handling and modular programming
@@ -73,6 +72,7 @@ Multi-feature CLI applications with proper structure.
 - Python 3
 - Standard Library Only
 - Command Line Interface (CLI)
+-JSON
 
 
 This repository reflects progress over perfection.
