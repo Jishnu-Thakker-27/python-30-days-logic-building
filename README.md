@@ -60,8 +60,8 @@ Multi-feature CLI applications with proper structure.
 [x]Modular Task Manager
 [x]Inventory Management System
 [x]Multi-User Banking System 
-[]Quiz App with Leaderboard 
-[]Text-Based Adventure Game 
+[x]Quiz App with Leaderboard 
+[x]Text-Based Adventure Game 
 []Basic Password Manager 
 []Rule-Based Chatbot
 []Final CLI Application 
